@@ -9,6 +9,8 @@
     <TabbedPage.Children>
         <local:raspianie />
         <local:zameni />
+        <local:school />
+        <local:teacher />
     </TabbedPage.Children>
     </TabbedPage>
     
