@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            Title="raspianie"
+            Title="Расписание"
+            IconImageSource="openbook.png"
              x:Class="tmpk1.stranitsi.raspianie">
 
-    <ContentPage  Title="Расписание" IconImageSource="open-book.png">
-
+    <ContentPage>
+        <StackLayout>
+            <WebView Source="https://tmpk.edupage.org/timetable/"
+        HeightRequest="1000"
+        WidthRequest="1000" />
+        </StackLayout>
 
 
     </ContentPage>

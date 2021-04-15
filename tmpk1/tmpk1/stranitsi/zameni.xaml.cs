@@ -15,6 +15,7 @@ namespace tmpk1.stranitsi
         public zameni()
         {
             InitializeComponent();
+
         }
     }
 }
