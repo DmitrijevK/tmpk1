@@ -11,9 +11,19 @@
         <ListView x:Name="listik" ItemSelected="listik_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell TextColor="Black" Text="{Binding Ltext}"
-                                       ImageSource="{Binding Limage}">
-                    </ImageCell>
+                    <ViewCell>
+                        <StackLayout BackgroundColor="#000000"
+                        Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Ltext}" />
+                                <Label Text="{Binding lDetail}"
+                                TextColor="#009999" />
+                                <Label Text="{Binding Limage}"
+                                HorizontalOptions="EndAndExpand"
+                                TextColor="#26517C" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
