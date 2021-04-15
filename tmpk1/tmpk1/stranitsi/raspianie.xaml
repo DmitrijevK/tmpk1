@@ -8,8 +8,8 @@
     <ContentPage>
         <StackLayout>
             <WebView Source="https://tmpk.edupage.org/timetable/"
-        HeightRequest="1000"
-        WidthRequest="1000" />
+        HeightRequest="500"
+        WidthRequest="500" />
         </StackLayout>
 
 
