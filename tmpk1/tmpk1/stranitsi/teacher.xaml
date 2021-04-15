@@ -12,14 +12,13 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="#000000"
+                        <StackLayout BackgroundColor="#eee"
                         Orientation="Vertical">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding Ltext}" />
                                 <Label Text="{Binding lDetail}"
                                 TextColor="#009999" />
                                 <Label Text="{Binding Limage}"
-                                HorizontalOptions="EndAndExpand"
                                 TextColor="#26517C" />
                             </StackLayout>
                         </StackLayout>
