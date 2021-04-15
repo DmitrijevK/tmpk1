@@ -16,10 +16,10 @@
                         Orientation="Vertical">
                             <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Ltext}"/>
-                                <Label Text="{Binding lDetail}"
-                                TextColor="#009999"/>
                                 <Label Text="{Binding Limage}"
-                                TextColor="#26517C"/>
+                                TextColor="#009999"/> 
+                                <Label Text="{Binding lDetail}"
+                                TextColor="#26517C" />
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
