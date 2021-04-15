@@ -94,7 +94,7 @@
     <AndroidResource Include="Resources\drawable\school.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\open-book.png" />
+    <AndroidResource Include="Resources\drawable\openbook.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\book.png" />
