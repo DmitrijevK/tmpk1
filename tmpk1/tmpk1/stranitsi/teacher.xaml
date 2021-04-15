@@ -14,7 +14,7 @@
                     <ViewCell>
                         <StackLayout BackgroundColor="#eee"
                         Orientation="Vertical">
-                            <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Ltext}"/>
                                 <Frame/>
                                 <Label Text="{Binding lDetail}"
