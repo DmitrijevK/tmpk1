@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace tmpk1
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace tmpk1.stranitsi
 {
-    public partial class MainPage : TabbedPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class raspianie : TabbedPage
     {
-        public MainPage()
+        public raspianie()
         {
             InitializeComponent();
         }
