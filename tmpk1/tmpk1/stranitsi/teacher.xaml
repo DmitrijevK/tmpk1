@@ -8,7 +8,15 @@
              x:Class="tmpk1.stranitsi.teacher">
 
     <ContentPage >
-
+        <ListView x:Name="listik" ItemSelected="listik_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell TextColor="Black" Text="{Binding Ltext}"
+                                       ImageSource="{Binding Limage}">
+                    </ImageCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
 
     </ContentPage>
