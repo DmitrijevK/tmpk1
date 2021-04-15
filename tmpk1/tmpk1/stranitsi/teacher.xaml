@@ -19,7 +19,7 @@
                                 <Label Text="{Binding Limage}"
                                 TextColor="#009999"/> 
                                 <Label Text="{Binding lDetail}"
-                                TextColor="#26517C" />
+                                TextColor="#26517c" />
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
