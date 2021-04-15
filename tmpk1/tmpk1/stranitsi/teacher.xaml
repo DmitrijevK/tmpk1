@@ -15,11 +15,14 @@
                         <StackLayout BackgroundColor="#eee"
                         Orientation="Vertical">
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Ltext}" />
+                                <Label Text="{Binding Ltext}" 
+                                       VerticalOptions="StartAndExpand"/>
                                 <Label Text="{Binding lDetail}"
-                                TextColor="#009999" />
+                                TextColor="#009999"
+                                       VerticalOptions="Start"/>
                                 <Label Text="{Binding Limage}"
-                                TextColor="#26517C" />
+                                TextColor="#26517C"
+                                       VerticalOptions="StartAndExpand"/>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
