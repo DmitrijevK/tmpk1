@@ -7,45 +7,21 @@
             android:TabbedPage.ToolbarPlacement="Bottom"
              x:Class="tmpk1.stranitsi.school">
 
-    <ContentPage Title="О школе" >
-        <Frame>
-            <Label Text="
-            1 сентября 1983 году открыла свои двери Таллиннская 58 основная школа.
-
-            В 1985 году Таллинская 58 основная школа была переименована в Таллиннскую 58 среднюю школу.
-
-            15 моя 1988 года управа города подписала указ №30, согласно которому Таллиннскую 58 средняя школа была переименована в Таллиннскую Махтраскую гимназию.
-
-            Начиная с 1 сентября 2014 года Таллиннская Махтраская гимназия реорганизована в Таллиннускую Махтраскую основную школу.
-
-            "/>
-        </Frame>
-
+    <ContentPage Title="Описание">
+        <StackLayout>
+            <Label Text="Python on üldotstarbeline interpreteeritav programmeerimiskeel, mida algselt arendati skriptimiskeeleks. Python võimaldab mitut programmeerimisstiili, näiteks objektorienteeritud, protseduraalset või funktsionaalset programmeerimist."/>
+        </StackLayout>
     </ContentPage>
-    <ContentPage >
-        <Frame>
-            <Label Text="
-                   Название школы
-                        Tallinna Mahtra Põhikool
-                   
-                   
-                   Эл. почта школы
-                        mahtra@mahtra.edu.ee
-                   
-                   
-                    Электронная почта 
-                        mahtra@mahtra.edu.ee
-                   
-                   
-                    Телефон
-                        +372 6218185
-                   
-                   
-                   Адрес школы
-                        Mahtra 60"/>
-            
-        </Frame>
-
+    <ContentPage Title="Функция" >
+        <StackLayout>
+            <Label Text="def is_palindrome(string): \n return string == ''.join(reversed(string)) \n print(is_palindrome('abba'))" BackgroundColor="Gray" FontSize="25" />
+        </StackLayout>
     </ContentPage>
 
+    <ContentPage Title="Задание" >
+        <StackLayout>
+            <Label Text="Перепеши и попробуй запустить" FontSize="20"/>
+            <Image Source="bbp.png"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>
