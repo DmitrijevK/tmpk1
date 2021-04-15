@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             Title="Расписание"
             IconImageSource="openbook.png"
+                        xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
              x:Class="tmpk1.stranitsi.raspianie">
 
     <ContentPage>
