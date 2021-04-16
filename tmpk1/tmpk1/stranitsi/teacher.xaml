@@ -7,7 +7,12 @@
             android:TabbedPage.ToolbarPlacement="Bottom"
              x:Class="tmpk1.stranitsi.teacher">
 
+    
+
     <ContentPage >
+        
+        
+        
         <ListView x:Name="listik" ItemSelected="listik_ItemSelected" >
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -23,11 +28,11 @@
                         Orientation="Vertical">
                             <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Ltext}"/>
-                                <Label Text="{Binding Limage}"
-                                TextColor="#009999"/> 
                                 <Label Text="{Binding lDetail}"
                                 TextColor="#26517c" />
-                            </StackLayout>
+                                <Label Text="{Binding Limage}"
+                                TextColor="#009999"/> 
+                            </StackLayout>-
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
@@ -36,5 +41,7 @@
 
 
     </ContentPage>
+    
+    
 
 </TabbedPage>
