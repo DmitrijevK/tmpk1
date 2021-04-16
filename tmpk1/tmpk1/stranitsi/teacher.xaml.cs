@@ -260,6 +260,13 @@ namespace tmpk1.stranitsi
             return uchetelja;
         }
 
+
+
+        public void OnMore(object sender, EventArgs e)
+        {
+            var mi = ((MenuItem)sender);
+            DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
+        }
         private void listik_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
         }

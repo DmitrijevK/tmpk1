@@ -12,7 +12,14 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="#eee"
+
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnMore"
+                      CommandParameter="{Binding Limage}"
+                      Text="Инфо" />
+                        </ViewCell.ContextActions>
+
+                        <StackLayout BackgroundColor="White"
                         Orientation="Vertical">
                             <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Ltext}"/>
