@@ -264,8 +264,11 @@ namespace tmpk1.stranitsi
 
         private async  void info_Clicked(object sender, EventArgs e)
         {
-            var mi = ((MenuItem)sender);
-           await DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
+        }
+
+        private void listik_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
         }
     }
 }
