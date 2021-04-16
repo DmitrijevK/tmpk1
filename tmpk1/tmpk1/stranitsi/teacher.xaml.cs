@@ -262,14 +262,10 @@ namespace tmpk1.stranitsi
 
 
 
-        public void OnMore(object sender, EventArgs e)
-        {
-            
-        }
-        private void listik_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async  void info_Clicked(object sender, EventArgs e)
         {
             var mi = ((MenuItem)sender);
-            DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
+           await DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
         }
     }
 }

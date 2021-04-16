@@ -8,13 +8,13 @@
              x:Class="tmpk1.stranitsi.teacher">
 
     <ContentPage >
-        <ListView x:Name="listik" ItemSelected="listik_ItemSelected" IsPullToRefreshEnabled="true">
+        <ListView x:Name="listik" ItemSelected="listik_ItemSelected" SelectionMode="None" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
 
                         <ViewCell.ContextActions>
-                            <MenuItem Clicked="OnMore"
+                            <MenuItem x:Name="info" Clicked="info_Clicked"
                       CommandParameter="{Binding Limage}"
                       Text="Инфо" />
                         </ViewCell.ContextActions>
