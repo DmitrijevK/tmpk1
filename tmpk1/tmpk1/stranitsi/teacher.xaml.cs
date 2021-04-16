@@ -264,6 +264,7 @@ namespace tmpk1.stranitsi
 
         public void OnMore(object sender, EventArgs e)
         {
+            
             var mi = ((MenuItem)sender);
             DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");
         }

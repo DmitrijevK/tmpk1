@@ -8,7 +8,7 @@
              x:Class="tmpk1.stranitsi.teacher">
 
     <ContentPage >
-        <ListView x:Name="listik" ItemSelected="listik_ItemSelected">
+        <ListView x:Name="listik" ItemSelected="listik_ItemSelected" IsPullToRefreshEnabled="true">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
