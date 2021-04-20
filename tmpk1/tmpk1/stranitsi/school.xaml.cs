@@ -19,7 +19,7 @@ namespace tmpk1.stranitsi
 
         private async void svjaz_Clicked(object sender, EventArgs e)
         {
-            await Launcher.OpenAsync(new Uri("https://ru.stackoverflow.com"));
+            await Launcher.OpenAsync(new Uri("https://www.facebook.com/mahtra.kool"));
         }
     }
 }
