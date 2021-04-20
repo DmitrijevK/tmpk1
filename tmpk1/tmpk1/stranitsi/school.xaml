@@ -25,13 +25,18 @@
     </ContentPage>
     <ContentPage Title="Контакты" >
         <StackLayout>
-            <Label Text="Контакты" />
+            <Frame BackgroundColor="CornflowerBlue" >
+                <Label FontSize="28" TextColor="White" Text="Контакты" />
+            </Frame>
             <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Телефонный номер" />
-            <Label Text=" Mahtra 60  " />
+            <Label Text=" +372 6218185  " />
+            <Frame/>
+            <Label FontSize="22" TextColor="CornflowerBlue" Text="Телефонный номер" />
+            <Label Text=" +372 6218185  " />
             <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Эль. почта" />
-            <Label Text="+372 6218185" />
+            <Label Text="" />
             <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Часы работы" />
             <Label Text="E-R kell 09.00 - 16.30  " />
