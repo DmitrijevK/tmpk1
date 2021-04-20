@@ -9,15 +9,18 @@
 
     <ContentPage Title="о школе">
         <StackLayout>
-            <Label Text="1 сентября 1983 " FontSize="18"/>
+            <Frame BackgroundColor="CornflowerBlue" >
+                <Label FontSize="28" TextColor="White" Text="История школы" />
+            </Frame>
+            <Label TextColor="CornflowerBlue" Text="1 сентября 1983 " FontSize="20"/>
             <Label Text="году открыла свои двери Таллиннская 58 основная школа."/>
-            <Label Text="1 сентября 1983 " FontSize="18"/>
+            <Label TextColor="CornflowerBlue"  Text="1 сентября 1983 " FontSize="20"/>
                 <Label Text="Таллинская 58 основная школа была переименована в Таллиннскую 58 среднюю школу "/>
 
-            <Label Text="15 мая 1988 года " FontSize="18"/>
+            <Label TextColor="CornflowerBlue" Text="15 мая 1988 года " FontSize="20"/>
                 <Label Text="управа города подписала указ №30, согласно которому Таллиннскую 58 средняя школа была переименована в Таллиннскую Махтраскую гимназию."/>
 
-            <Label Text="Начиная с 1 сентября 2014 года " FontSize="18"/>
+            <Label TextColor="CornflowerBlue" Text="Начиная с 1 сентября 2014 года " FontSize="20"/>
                 <Label Text=" Таллиннская Махтраская гимназия реорганизована в Таллиннускую Махтраскую основную школу."/>
 
             
@@ -29,18 +32,27 @@
                 <Label FontSize="28" TextColor="White" Text="Контакты" />
             </Frame>
             <Frame/>
-            <Label FontSize="22" TextColor="CornflowerBlue" Text="Телефонный номер" />
-            <Label Text=" +372 6218185  " />
+            <Label FontSize="22" TextColor="CornflowerBlue" Text="Адресс" />
+            <Label Text=" Mahtra 60  " />
             <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Телефонный номер" />
             <Label Text=" +372 6218185  " />
-            <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Эль. почта" />
             <Label Text="" />
             <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Часы работы" />
             <Label Text="E-R kell 09.00 - 16.30  " />
-            <Frame/>
+            <Frame>
+                <Label FontSize="22" TextColor="CornflowerBlue" Text="Связатся с нами" />
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Внутренний распорядок" >
+        <StackLayout>
+            <WebView Source="https://mahtra.edu.ee/ru/vnutrenniy-rasporyadok-0"
+        HeightRequest="500"
+        WidthRequest="500" />
         </StackLayout>
     </ContentPage>
 </TabbedPage>
