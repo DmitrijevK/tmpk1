@@ -31,20 +31,18 @@
             <Frame BackgroundColor="CornflowerBlue" >
                 <Label FontSize="28" TextColor="White" Text="Контакты" />
             </Frame>
-            <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Адресс" />
             <Label Text=" Mahtra 60  " />
-            <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Телефонный номер" />
             <Label Text=" +372 6218185  " />
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Эль. почта" />
             <Label Text="" />
-            <Frame/>
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Часы работы" />
             <Label Text="E-R kell 09.00 - 16.30  " />
-            <Frame>
-                <Label FontSize="22" TextColor="CornflowerBlue" Text="Связатся с нами" />
+            <Frame BackgroundColor="CornflowerBlue">
+                <Label FontSize="22" TextColor="White" Text="Связатся с нами" />
             </Frame>
+            <Button BackgroundColor="CornflowerBlue" x:Name="svjaz" Clicked="svjaz_Clicked" FontSize="22" TextColor="White" Text="Связатся с нами " />
         </StackLayout>
     </ContentPage>
 
