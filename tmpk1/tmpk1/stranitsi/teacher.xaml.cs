@@ -270,5 +270,15 @@ namespace tmpk1.stranitsi
         {
 
         }
+
+        private void obrabotat_click(object sender, EventArgs e)
+        {
+            var emailMessenger = CrossMessaging.Current.EmailMessenger;
+            if (emailMessenger.CanSendEmail)
+            {
+                emailMessenger.SendEmail($"{picker.SelectedItem}", $"{EntrySubject}", $"{EntryRecipients}");
+            }
+            ButtonSend.Text = "Отправлено!";    
+        }
     }
 }
