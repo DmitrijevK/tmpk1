@@ -1,5 +1,5 @@
 ## Apps for TMPK or Tallinn Mahtra Basic School 
-##developers 
+## developers 
 Kirill Dmitrijev
 Matvei Dmitrijev
 Bogdan Jakovlev
