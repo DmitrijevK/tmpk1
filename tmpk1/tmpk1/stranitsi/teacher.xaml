@@ -36,6 +36,8 @@
                                 TextColor="#009999"/>
                                 <Label Text="{Binding Limage}"
                                 TextColor="#26517c" />
+                                <Label Text="{Binding Limage}"
+                                TextColor="#009999"/> 
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>
