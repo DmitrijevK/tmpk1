@@ -32,9 +32,9 @@
                         Orientation="Vertical">
                             <StackLayout Orientation="Vertical">
                                 <Label Text="{Binding Ltext}"/>
-                                <Label Text="{Binding Limage}"
-                                TextColor="#009999"/> 
                                 <Label Text="{Binding lDetail}"
+                                TextColor="#009999"/>
+                                <Label Text="{Binding Limage}"
                                 TextColor="#26517c" />
                             </StackLayout>
                         </StackLayout>
