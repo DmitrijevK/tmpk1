@@ -11,11 +11,10 @@
 
     <ContentPage >
          
-        <Button x:Name="aboba" BackgroundColor="White" />
         <Entry Placeholder="Почта учителя " x:Name="EntryRecipients" TextColor="Red"></Entry>
         <Entry Placeholder="Тема сообщения" x:Name="EntrySubject" TextColor="Black"></Entry>
         <Entry Placeholder="Кнопку ниже" x:Name="EntryBody" TextColor="Black"></Entry>
-        <Button Text="Отправить" x:Name="ButtonSend" Clicked="ButtonSend_Clicked" BackgroundColor="White"/>
+        <Button Text="Отправить" x:Name="obrabotat" Clicked="obrabotat_click" BackgroundColor="White"/>
         <Frame BackgroundColor="CornflowerBlue" />
         <ListView x:Name="listik" ItemSelected="listik_ItemSelected" >
             <ListView.ItemTemplate>
