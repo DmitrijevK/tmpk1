@@ -11,7 +11,7 @@
 
     <ContentPage >
          
-        <Button x:Name="111" BackgroundColor="White" />
+        <Button x:Name="aboba" BackgroundColor="White" />
         <Entry Placeholder="Почта учителя " x:Name="EntryRecipients" TextColor="Red"></Entry>
         <Entry Placeholder="Тема сообщения" x:Name="EntrySubject" TextColor="Black"></Entry>
         <Entry Placeholder="Кнопку ниже" x:Name="EntryBody" TextColor="Black"></Entry>
