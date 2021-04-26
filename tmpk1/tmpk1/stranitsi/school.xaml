@@ -39,9 +39,7 @@
             <Label Text="" />
             <Label FontSize="22" TextColor="CornflowerBlue" Text="Часы работы" />
             <Label Text="E-R kell 09.00 - 16.30  "   />
-            <Frame BackgroundColor="CornflowerBlue" >
             <Button BackgroundColor="CornflowerBlue" x:Name="svjaz" Clicked="svjaz_Clicked" FontSize="22" TextColor="White" Text="Связаться с нами " />
-                </frame>
         </StackLayout>
     </ContentPage>
 
