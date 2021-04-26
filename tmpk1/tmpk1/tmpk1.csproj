@@ -28,8 +28,5 @@
     <EmbeddedResource Update="stranitsi\zameni.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="vkl.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
 </Project>
