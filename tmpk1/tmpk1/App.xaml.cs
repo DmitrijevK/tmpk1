@@ -10,7 +10,7 @@ namespace tmpk1
         {
             InitializeComponent();
 
-            MainPage = new vkl();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
